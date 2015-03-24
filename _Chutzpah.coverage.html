@@ -1,0 +1,193 @@
+
+<html>
+<head>
+    <title>Chutzpah Code Coverage Results</title>
+    <script type='text/javascript'>
+        
+function chutzpah_toggleSource(id) {
+        var element = document.getElementById(id);
+        if(element.style.display === 'block') {
+            element.style.display = 'none';
+        } else {
+            element.style.display = 'block';
+        }
+    }
+
+    </script>
+    <style>
+        
+#chutzpah-main
+{
+  background:#EEE;
+  clear:both;
+  color:#333;
+  font-family:'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Calibri, Helvetica, Arial, sans-serif;
+  font-size:17px;
+  margin:2px;
+}
+
+#chutzpah-main a
+{
+  color:#333;
+  text-decoration:none;
+}
+
+#chutzpah-main a:hover
+{
+  text-decoration:underline;
+}
+
+.chutzpah
+{
+  border-bottom:1px solid #FFF;
+  clear:both;
+  margin:0;
+  padding:5px;
+}
+
+.chutzpah-error
+{
+  color:red;
+}
+
+.chutzpah-success
+{
+  color:#5E7D00;
+}
+
+.chutzpah-file
+{
+  width:auto;
+}
+
+.chutzpah-cl
+{
+  float:left;
+}
+
+.chutzpah div.rs
+{
+  float:right;
+  margin-left:50px;
+  width:150px;
+}
+
+.chutzpah-nb
+{
+  padding-right:10px;
+}
+
+#chutzpah-main a.chutzpah-logo
+{
+  color:#3245FF;
+  cursor:pointer;
+  font-weight:700;
+  text-decoration:none;
+}
+
+.chutzpah-source
+{
+  background-color:#FFF;
+  border:1px solid #CBCBCB;
+  color:#363636;
+  margin:25px 20px;
+  overflow-x:scroll;
+  width:80%;
+}
+
+.chutzpah-source div
+{
+  white-space:nowrap;
+}
+
+.chutzpah-source span
+{
+  background-color:#EAEAEA;
+  color:#949494;
+  display:inline-block;
+  padding:0 10px;
+  text-align:center;
+}
+
+.chutzpah-source .miss
+{
+  background-color:#e6c3c7;
+}
+
+    </style>
+</head>
+<body>
+<div id='chutzpah-main'>
+	<div class='chutzpah chutzpah-title'>
+		<div class='chutzpah-cl chutzpah-file'>
+			<a href='http://chutzpah.codeplex.com/' target='_blank' class='chutzpah-logo'>Chutzpah</a> code coverage via <a href='http://blanketjs.org' target='_blank' class='chutzpah-logo'>blanket.js</a> results
+		</div>
+		<div class='chutzpah-cl rs'>
+			Coverage (%)
+		</div>
+		<div class='chutzpah-cl rs'>
+			Covered/Total Smts.
+		</div>
+		<div style='clear:both;'>
+		</div>
+	</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>1.</span><a href='javascript:chutzpah_toggleSource("file-1")'>c:\users\michael.vanrooijen-b\documents\visual studio 2013\projects\chutzpahrepro\chutzpahrepro\common.js</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		3/3
+	</div>
+	<div id='file-1' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>1</span>var&nbsp;ssp&nbsp;=&nbsp;ssp&nbsp;||&nbsp;{};</div> <div class='hit'><span class=''>2</span>ssp.ems&nbsp;=&nbsp;ssp.ems&nbsp;||&nbsp;{};</div> <div class='hit'><span class=''>3</span>ssp.ems.common&nbsp;=&nbsp;ssp.ems.common&nbsp;||&nbsp;{};</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>2.</span><a href='javascript:chutzpah_toggleSource("file-2")'>c:\users\michael.vanrooijen-b\documents\visual studio 2013\projects\chutzpahrepro\chutzpahrepro\commonspec.js</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		5/5
+	</div>
+	<div id='file-2' class='chutzpah-source' style='display:none;'>
+		 <div class=''><span class=''>&nbsp;&nbsp;1</span>///&nbsp;&lt;reference&nbsp;path=&quot;common.js&quot;&nbsp;/&gt;</div> <div class=''><span class=''>&nbsp;&nbsp;2</span></div> <div class=''><span class=''>&nbsp;&nbsp;3</span>/*ignore&nbsp;jslint&nbsp;start*/</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>describe(&quot;Sew&nbsp;Notification&nbsp;rule&nbsp;edit2&quot;,&nbsp;function&nbsp;()&nbsp;{</div> <div class=''><span class=''>&nbsp;&nbsp;5</span></div> <div class=''><span class=''>&nbsp;&nbsp;6</span></div> <div class='hit'><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;describe(&quot;ViewModel2&quot;,&nbsp;function&nbsp;()&nbsp;{</div> <div class=''><span class=''>&nbsp;&nbsp;8</span></div> <div class='hit'><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;it(&quot;can&nbsp;be&nbsp;created&quot;,&nbsp;function&nbsp;()&nbsp;{</div> <div class=''><span class=''>10</span></div> <div class='hit'><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;viewModel&nbsp;=&nbsp;true;</div> <div class='hit'><span class=''>12</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;expect(viewModel).toBe(true);</div> <div class='{{executed}}'><span class=''>13</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});</div> <div class='{{executed}}'><span class=''>14</span>&nbsp;&nbsp;&nbsp;&nbsp;});</div> <div class='{{executed}}'><span class=''>15</span>});</div> <div class='{{executed}}'><span class=''>16</span></div> <div class='{{executed}}'><span class=''>17</span>/*ignore&nbsp;jslint&nbsp;end*/</div> <div class='{{executed}}'><span class=''>18</span>//&nbsp;Leave&nbsp;this&nbsp;line,&nbsp;otherwise&nbsp;JSLint&nbsp;won&#39;t&nbsp;see&nbsp;the&nbsp;ignore&nbsp;end&nbsp;tag</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>3.</span><a href='javascript:chutzpah_toggleSource("file-3")'>Total</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		8/8
+	</div>
+	<div id='file-3' class='chutzpah-source' style='display:none;'>
+		
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+</div>
+</body>
+</html>
+
